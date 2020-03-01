@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03a8c19c-f39a-4195-80a0-21b8bdff9b4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_2_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_3_WIFI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_2_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_2_form.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_2_form.py">
+  <component name="RunManager" selected="Python tests.Unittests for test_3_WIFI.TestowanieAplikacji">
     <configuration name="Unittests for test_2_form.TestowanieAplikacji" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="mobileTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,6 +65,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_2_form.TestowanieAplikacji.test_new_contact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_3_WIFI.TestowanieAplikacji" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="mobileTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_3_WIFI.TestowanieAplikacji&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -99,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_3_WIFI.TestowanieAplikacji" />
         <item itemvalue="Python tests.Unittests in test_2_form.py" />
         <item itemvalue="Python tests.Unittests for test_2_form.TestowanieAplikacji" />
         <item itemvalue="Python tests.Unittests for test_2_form.TestowanieAplikacji.test_new_contact" />
@@ -120,22 +134,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1791" height="230" key="GridCell.Tab.0.bottom" timestamp="1583057064950">
+    <state width="1791" height="230" key="GridCell.Tab.0.bottom" timestamp="1583060661906">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1791" height="230" key="GridCell.Tab.0.bottom/67.27.1853.948@67.27.1853.948" timestamp="1583057064950" />
-    <state width="1791" height="230" key="GridCell.Tab.0.center" timestamp="1583057064949">
+    <state width="1791" height="230" key="GridCell.Tab.0.bottom/67.27.1853.948@67.27.1853.948" timestamp="1583060661906" />
+    <state width="1791" height="230" key="GridCell.Tab.0.center" timestamp="1583060661905">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1791" height="230" key="GridCell.Tab.0.center/67.27.1853.948@67.27.1853.948" timestamp="1583057064949" />
-    <state width="1791" height="230" key="GridCell.Tab.0.left" timestamp="1583057064949">
+    <state width="1791" height="230" key="GridCell.Tab.0.center/67.27.1853.948@67.27.1853.948" timestamp="1583060661905" />
+    <state width="1791" height="230" key="GridCell.Tab.0.left" timestamp="1583060661904">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1791" height="230" key="GridCell.Tab.0.left/67.27.1853.948@67.27.1853.948" timestamp="1583057064949" />
-    <state width="1791" height="230" key="GridCell.Tab.0.right" timestamp="1583057064950">
+    <state width="1791" height="230" key="GridCell.Tab.0.left/67.27.1853.948@67.27.1853.948" timestamp="1583060661904" />
+    <state width="1791" height="230" key="GridCell.Tab.0.right" timestamp="1583060661905">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1791" height="230" key="GridCell.Tab.0.right/67.27.1853.948@67.27.1853.948" timestamp="1583057064950" />
+    <state width="1791" height="230" key="GridCell.Tab.0.right/67.27.1853.948@67.27.1853.948" timestamp="1583060661905" />
     <state x="498" y="156" key="SettingsEditor" timestamp="1583048158452">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
