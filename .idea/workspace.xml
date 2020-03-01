@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03a8c19c-f39a-4195-80a0-21b8bdff9b4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test_1_B_instalation_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_4_notification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_1_instalation.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_1_A_instalation_api_demos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_2_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_2_form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_3_WIFI.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_3_WIFI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SelWebDriv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -37,49 +43,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_3_WIFI.TestowanieAplikacji.test_WIFI_connection">
-    <configuration name="Unittests for test_2_form.TestowanieAplikacji" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="mobileTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_2_form.TestowanieAplikacji&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_2_form.TestowanieAplikacji.test_new_contact" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="mobileTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_2_form.TestowanieAplikacji.test_new_contact&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_3_WIFI.TestowanieAplikacji" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="mobileTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_3_WIFI.TestowanieAplikacji&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_5.TestowanieAplikacji.test_lists">
     <configuration name="Unittests for test_3_WIFI.TestowanieAplikacji.test_WIFI_connection" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="mobileTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +58,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_2_form.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_3_WIFI.TestowanieAplikacji.test_checkbox" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="mobileTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,17 +68,59 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_2_form.py&quot;" />
+      <option name="_new_target" value="&quot;test_3_WIFI.TestowanieAplikacji.test_checkbox&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_4_notification.TestowanieAplikacji.test_is_notification" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="mobileTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_4_notification.TestowanieAplikacji.test_is_notification&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_5.TestowanieAplikacji.test_lists" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="mobileTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_5.TestowanieAplikacji.test_lists&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_4_notification.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="mobileTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_4_notification.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_5.TestowanieAplikacji.test_lists" />
+        <item itemvalue="Python tests.Unittests in test_4_notification.py" />
+        <item itemvalue="Python tests.Unittests for test_4_notification.TestowanieAplikacji.test_is_notification" />
+        <item itemvalue="Python tests.Unittests for test_3_WIFI.TestowanieAplikacji.test_checkbox" />
         <item itemvalue="Python tests.Unittests for test_3_WIFI.TestowanieAplikacji.test_WIFI_connection" />
-        <item itemvalue="Python tests.Unittests for test_3_WIFI.TestowanieAplikacji" />
-        <item itemvalue="Python tests.Unittests in test_2_form.py" />
-        <item itemvalue="Python tests.Unittests for test_2_form.TestowanieAplikacji" />
-        <item itemvalue="Python tests.Unittests for test_2_form.TestowanieAplikacji.test_new_contact" />
       </list>
     </recent_temporary>
   </component>
@@ -136,25 +142,49 @@
       <screen x="67" y="27" width="1853" height="948" />
     </state>
     <state x="795" y="239" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.948@67.27.1853.948" timestamp="1583061531427" />
-    <state width="1791" height="230" key="GridCell.Tab.0.bottom" timestamp="1583060910738">
+    <state width="1791" height="230" key="GridCell.Tab.0.bottom" timestamp="1583071171538">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1791" height="230" key="GridCell.Tab.0.bottom/67.27.1853.948@67.27.1853.948" timestamp="1583060910738" />
-    <state width="1791" height="230" key="GridCell.Tab.0.center" timestamp="1583060910737">
+    <state width="1791" height="230" key="GridCell.Tab.0.bottom/67.27.1853.948@67.27.1853.948" timestamp="1583071171538" />
+    <state width="1791" height="230" key="GridCell.Tab.0.center" timestamp="1583071171537">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1791" height="230" key="GridCell.Tab.0.center/67.27.1853.948@67.27.1853.948" timestamp="1583060910737" />
-    <state width="1791" height="230" key="GridCell.Tab.0.left" timestamp="1583060910736">
+    <state width="1791" height="230" key="GridCell.Tab.0.center/67.27.1853.948@67.27.1853.948" timestamp="1583071171537" />
+    <state width="1791" height="230" key="GridCell.Tab.0.left" timestamp="1583071171536">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1791" height="230" key="GridCell.Tab.0.left/67.27.1853.948@67.27.1853.948" timestamp="1583060910736" />
-    <state width="1791" height="230" key="GridCell.Tab.0.right" timestamp="1583060910738">
+    <state width="1791" height="230" key="GridCell.Tab.0.left/67.27.1853.948@67.27.1853.948" timestamp="1583071171536" />
+    <state width="1791" height="230" key="GridCell.Tab.0.right" timestamp="1583071171537">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1791" height="230" key="GridCell.Tab.0.right/67.27.1853.948@67.27.1853.948" timestamp="1583060910738" />
+    <state width="1791" height="230" key="GridCell.Tab.0.right/67.27.1853.948@67.27.1853.948" timestamp="1583071171537" />
+    <state width="1791" height="285" key="GridCell.Tab.1.bottom" timestamp="1583070699374">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state width="1791" height="285" key="GridCell.Tab.1.bottom/67.27.1853.948@67.27.1853.948" timestamp="1583070699374" />
+    <state width="1791" height="285" key="GridCell.Tab.1.center" timestamp="1583070699374">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state width="1791" height="285" key="GridCell.Tab.1.center/67.27.1853.948@67.27.1853.948" timestamp="1583070699374" />
+    <state width="1791" height="285" key="GridCell.Tab.1.left" timestamp="1583070699373">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state width="1791" height="285" key="GridCell.Tab.1.left/67.27.1853.948@67.27.1853.948" timestamp="1583070699373" />
+    <state width="1791" height="285" key="GridCell.Tab.1.right" timestamp="1583070699374">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state width="1791" height="285" key="GridCell.Tab.1.right/67.27.1853.948@67.27.1853.948" timestamp="1583070699374" />
     <state x="498" y="156" key="SettingsEditor" timestamp="1583048158452">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
     <state x="498" y="156" key="SettingsEditor/67.27.1853.948@67.27.1853.948" timestamp="1583048158452" />
+    <state x="205" y="127" width="1614" height="708" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583063011183">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="205" y="127" width="1614" height="708" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1853.948@67.27.1853.948" timestamp="1583063011183" />
+    <state x="675" y="223" key="search.everywhere.popup" timestamp="1583063940925">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="675" y="223" key="search.everywhere.popup/67.27.1853.948@67.27.1853.948" timestamp="1583063940925" />
   </component>
 </project>
