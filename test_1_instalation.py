@@ -12,6 +12,7 @@ PATH = lambda p: os.path.abspath(
 
 
 class TestowanieAplikacji(unittest.TestCase):
+    #czesc z funkcjami konfigurujacymi
     def setUp(self):
         desired_caps = {} #zadeklarowanie slownika z danymi telefonu
         desired_caps['platformName'] = 'Android'
@@ -28,14 +29,15 @@ class TestowanieAplikacji(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
+    #czesc z funkcjami testujacymi
+
     def test_is_app1_installed(self):
-        self.assertTrue(self.driver.is_app_installed('io.appium.android.apis'))
+        self.assertTrue(self.driver.is_app_installed('io.appium.android.apis')) #app_package
 
     def test_is_app2_installed(self):
-        self.assertTrue(self.driver.is_app_installed('com.example.android.contactmanager'))
-
+        self.assertTrue(self.driver.is_app_installed('com.example.android.contactmanager')) #app package
 
 
 if __name__ == '__main__':
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestowanieAplikacji)
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestowanieAplikacji) #musi sie zgadzac z nazwa klasy
     unittest.TextTestRunner(verbosity=2).run(suite)
