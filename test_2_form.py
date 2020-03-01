@@ -8,7 +8,7 @@ from time import sleep
 
 # bierze path z miejsca w ktorym jest projekt
 PATH = lambda p: os.path.abspath(
-    os.path.join(os.path.dirname(__file__),p)
+    os.path.join(os.path.dirname(__file__), p)
 )
 
 
@@ -33,8 +33,10 @@ class TestowanieAplikacji(unittest.TestCase):
 
     # czesc z funkcjami testujacymi
     def test_new_contact(self):
-        add = self.driver.find_element_by_accessibility_id('Add Contact')
+        add = self.driver.find_element_by_xpath('//android.widget.Button[@text="Add Contact"]')
         add.click() # dla tych ktore maja content-desc
+
+        self.driver.implicitly_wait(3)
 
         textElements = self.driver.find_elements_by_class_name('android.widget.EditText')
         elementsNumber = textElements.__len__()
@@ -52,43 +54,6 @@ class TestowanieAplikacji(unittest.TestCase):
         print(textElements[0].text)
         print(textElements[1].text)
         print(textElements[2].text)
-
-    # def test_new_contact_with_work(self):
-    #     add = self.driver.find_element_by_accessibility_id('Add Contact')
-    #     add.click() #dla tych ktore maja content-desc
-    #     chooseElements = self.driver.find_elements_by_class_name('//android.widget.Spinner[@text="Home"]')
-    #     chooseElementsNumber = chooseElements.__len__()
-    #     self.assertEqual(chooseElementsNumber, 2)
-    #
-    #     textElements = self.driver.find_elements_by_class_name('android.widget.EditText')
-    #     textElementsNumber = textElements.__len__()
-    #     self.assertEqual(textElementsNumber, 3)
-    #
-    #     chooseElements[1].click()
-    #     textElements[0].send_keys('test contact')
-    #     chooseElements[1].click()
-    #     textElements[1].send_keys('123321456')
-    #     chooseElements[2].click()
-    #     textElements[2].send_keys('test@test.pl')
-    #     # name = self.driver.find_element_by_id('com.example.android.contactmanager:id/contactNameEditText')
-    #     # name.send_keys('test contact')
-    #     # phone = self.driver.find_element_by_id('com.example.android.contactmanager:id/contactPhoneEditText')
-    #     # phone.send_keys('123321456')
-    #     # email = self.driver.find_element_by_id('com.example.android.contactmanager:id/contactEmailEditText')
-    #     # email.send_keys('test@test.pl')
-    #     # submit = self.driver
-    #     # .find_element_by_accessibility_id('com.example.android.contactmanager:id/contactSaveButton')
-    #     # submit.click()
-    #     self.assertEqual(textElements[0].text, 'test contact')
-    #     self.assertEqual(textElements[1].text, '123321456')
-    #     self.assertEqual(textElements[2].text, 'test@test.pl')
-    #
-    #     print("Liczba elementow z tekstem:")
-    #     print(textElements.__len__().__str__())
-    #
-    #     print(textElements[0].text)
-    #     print(textElements[1].text)
-    #     print(textElements[2].text)
 
 
 if __name__ == '__main__':

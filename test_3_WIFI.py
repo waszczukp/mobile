@@ -8,7 +8,7 @@ from time import sleep
 
 # bierze path z miejsca w ktorym jest projekt
 PATH = lambda p: os.path.abspath(
-    os.path.join(os.path.dirname(__file__),p)
+    os.path.join(os.path.dirname(__file__), p)
 )
 
 

@@ -7,7 +7,7 @@ from appium import webdriver
 
 # bierze path z miejsca w ktorym jest projekt
 PATH = lambda p: os.path.abspath(
-    os.path.join(os.path.dirname(__file__),p)
+    os.path.join(os.path.dirname(__file__), p)
 )
 
 
@@ -20,7 +20,7 @@ class TestowanieAplikacji(unittest.TestCase):
         desired_caps['platformVersion'] = '7.0'
         desired_caps['deviceName'] = 'Gigaset GS170'
 
-        self.driver = webdriver.Remote('http://localhost:4723/wd/hub',desired_caps)
+        self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
     def tearDown(self):
         self.driver.quit()
@@ -40,9 +40,6 @@ class TestowanieAplikacji(unittest.TestCase):
                 is_body_and_title_found = True
 
         self.assertTrue(is_body_and_title_found)
-
-
-
 
 
 if __name__ == '__main__':

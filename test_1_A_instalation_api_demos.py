@@ -7,7 +7,7 @@ from appium import webdriver
 
 # bierze path z miejsca w ktorym jest projekt
 PATH = lambda p: os.path.abspath(
-    os.path.join(os.path.dirname(__file__),p)
+    os.path.join(os.path.dirname(__file__), p)
 )
 
 
@@ -23,7 +23,7 @@ class TestowanieAplikacji(unittest.TestCase):
         desired_caps['appPackage'] = 'io.appium.android.apis'
         desired_caps['appActivity'] = 'io.appium.android.apis.ApiDemos'
 
-        self.driver = webdriver.Remote('http://localhost:4723/wd/hub',desired_caps)
+        self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
     def tearDown(self):
         self.driver.quit()
