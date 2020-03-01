@@ -37,6 +37,7 @@ class TestowanieAplikacji(unittest.TestCase):
     #     self.assertTrue(self.driver.is_app_installed('io.appium.android.apis')) #app package
 
     def test_WIFI_connection(self):
+        wifiPassExpected = '123321789'
         self.driver.find_element_by_xpath('//android.widget.TextView[@text="Preference"]').click()
         self.driver.find_element_by_xpath('//android.widget.TextView[@text="3. Preference dependencies"]').click()
         checkBoxes = self.driver.find_elements_by_class_name('android.widget.CheckBox')
@@ -45,10 +46,15 @@ class TestowanieAplikacji(unittest.TestCase):
         self.assertEqual(checkBoxesNumber, 1)
         checkBoxes[0].click()
         self.driver.find_element_by_xpath('//android.widget.TextView[@text="WiFi settings"]').click()
-        self.driver.find_element_by_id('android:id/edit').send_keys('123321789')
+        self.driver.find_element_by_id('android:id/edit').send_keys(wifiPassExpected)
         self.driver.find_element_by_xpath('//android.widget.Button[@text="OK"]').click()
 
-        # self.driver.find_elements_by_xpath('//android.widget.TextView[@text="]').click()
+        self.driver.find_element_by_xpath('//android.widget.TextView[@text="WiFi settings"]').click()
+        wifiPassObtained = self.driver.find_element_by_id('android:id/edit').text
+        self.assertEqual(wifiPassObtained, wifiPassExpected)
+        self.driver.press_keycode(4)
+        self.driver.press_keycode(4)
+        self.driver.find_element_by_xpath('//android.widget.TextView[@text="Preference"]')
 
 
 if __name__ == '__main__':
